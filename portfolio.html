@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="Width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/2b31f63892.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="./../images/logo.png" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Web Designer</p>
+                    <h1>Hi, I'm <span><i>Vaishnavi Dhumal</i></span><br> From Maharashatra</h1>
+                </div>
+            </div>
+        </div>
+        <!----------about---------- --->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./../images/myimage1.png" height="500px">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me :-</h1>
+                        <p> I am passionate programming freelancer with good experience in web development and desktop application development. my portfolio makes great use of fullPage.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX :</span><br>Designing Web Interfaces</li>
+                                <li><span>Web Development :</span><br>Web Designing</li>
+                                <li><span>Web Development :</span><br>Design of Landing Pages</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2023-current</span><br>Designing Web Interfaces</li>
+                                <li><span>9/2023-10/2023 :</span><br>Internship at CodeShell</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021</span><br>Student at JSPM's University,Wagholi Pune</li>
+                                <li><span>2019-2021 :</span><br>HSC from Dr Chandrabhanu Sonwane College, Latur</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------Services---------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services :</h1>
+                <div class="services-list">
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UI/UX Designer responsibilities include gathering user requirements, designing graphic elements and building navigation components. To be successful in this role, you should have experience with design software</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-page"></i>
+                        <h2>Landing Page Design</h2>
+                        <p>A **landing page** is a standalone webpage that is designed to achieve a specific goal, such as promoting a product or service, generating leads, or encouraging visitors to take a specific action ²³⁴. Landing pages are often used in digital marketing campaigns and are optimized for conversion.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------Portfolio---------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work:</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./../images/OIP.jpg" height="250px" >
+                        <div class="layer">
+                            <h3>Web-Design</h3>
+                            <p>The Web-Design helps you to find <br>
+                                the various design idea about<br> different pages</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./../images/ui_image.png" height="250px" width="100px">
+                        <div class="layer">
+                            <h3>Web-Design</h3>
+                            <p>The Web-Design helps you to find <br>
+                                the various design idea about<br> different pages</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./../images/landing-page.png" height="250px" width="100px">
+                        <div class="layer">
+                            <h3>Landingpage-Design</h3>
+                            <p>The Web-Design helps you to find <br>
+                                the various design idea about<br> different pages</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!-- ----------Contact---------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href=""><i class="fa-brands fa-Linkedin"></i></a>
+                        </div>
+                        <a href="./../My CV.pdf" download  class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" Placeholder="Your Name" required>
+                            <input type="email" name="email" Placeholder="Your Email" required>
+
+                            <textarea name="Message" rows="6"  Placeholder="Your Message"></textarea>
+                                <button types="submit" class="btn btn2">Submit</button>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @Vaishnavi. Made with <i class="fa-solid fa-heart"></i> by Easy Practice</p>
+            </div>
+        </div>
+
+        <script>
+           var tablinks=document.getElementsByClassName("tab-links");
+           var tabcontents=document.getElementsByClassName("tab-contents");
+           
+
+           function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+           }
+
+        </script>
+    </body>
+</HTML>
